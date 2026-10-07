@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Nagar Sahayak — Complaint Registration Management Portal</title>
+<meta name="description" content="An academic prototype civic complaint registration and tracking portal — BSc IT Community Engagement Project (NEP 2020)." />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏛️</text></svg>" />
+<meta name="theme-color" content="#0a3f3a" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="/assets/css/style.css" />
+</head>
+<body>
+
+<a href="#/" class="skip-link">Skip to content</a>
+
+<header class="site-header" id="site-header">
+  <div class="container header-inner">
+    <a href="#/" class="brand">
+      <span class="brand-icon">🏛️</span>
+      <span class="brand-text">
+        <strong>Nagar Sahayak</strong>
+        <small>Complaint Registration &amp; Management Portal</small>
+      </span>
+    </a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="main-nav" id="mainNav">
+      <a href="#/">Home</a>
+      <a href="#/how-it-works">How It Works</a>
+      <a href="#/categories">Categories</a>
+      <a href="#/track">Track Complaint</a>
+      <a href="#/research">Research &amp; Improvements</a>
+      <a href="#/faq">Help / FAQ</a>
+      <div class="nav-auth" id="navAuth"></div>
+    </nav>
+  </div>
+</header>
+
+<div class="banner-notice">
+  <div class="container">
+    ⚠️ Academic prototype (BSc CS CEP Project, NEP 2020). Not an official Municipal Corporation system — no real complaints are routed to any civic body.
+  </div>
+</div>
+
+<main id="app" class="app-main" tabindex="-1"></main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <div class="brand footer-brand"><span class="brand-icon">🏛️</span><strong>Nagar Sahayak</strong></div>
+      <p>A citizen-friendly civic complaint registration &amp; tracking prototype, built as a BSc IT Community Engagement Project under NEP 2020.</p>
+    </div>
+    <div>
+      <h4>Quick Links</h4>
+      <a href="#/register-complaint">Register Complaint</a>
+      <a href="#/track">Track Complaint</a>
+      <a href="#/categories">Complaint Categories</a>
+      <a href="#/faq">Help &amp; FAQ</a>
+    </div>
+    <div>
+      <h4>Project</h4>
+      <a href="#/about">About This Project</a>
+      <a href="#/research">Research &amp; Improvements</a>
+      <a href="#/contact">Contact</a>
+    </div>
+    <div>
+      <h4>Emergency Contacts (Sample)</h4>
+      <p>Municipal Helpline: <strong>1800-000-0000</strong><br/>Fire: <strong>101</strong> · Ambulance: <strong>108</strong> · Police: <strong>100</strong></p>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>© 2026 Nagar Sahayak — Academic Prototype. Not affiliated with any Municipal Corporation.</span>
+    <a href="#/admin-login" class="footer-admin-link">Admin Login</a>
+  </div>
+</footer>
+
+<div id="toastRoot" class="toast-root" aria-live="polite"></div>
+
+<script src="/assets/js/api.js"></script>
+<script src="/assets/js/state.js"></script>
+<script src="/assets/js/ui.js"></script>
+<script>window.Pages = {};</script>
+<script src="/assets/js/pages/home.js"></script>
+<script src="/assets/js/pages/about.js"></script>
+<script src="/assets/js/pages/how-it-works.js"></script>
+<script src="/assets/js/pages/categories.js"></script>
+<script src="/assets/js/pages/auth.js"></script>
+<script src="/assets/js/pages/register-complaint.js"></script>
+<script src="/assets/js/pages/track.js"></script>
+<script src="/assets/js/pages/dashboard.js"></script>
+<script src="/assets/js/pages/my-complaints.js"></script>
+<script src="/assets/js/pages/complaint-details.js"></script>
+<script src="/assets/js/pages/notifications.js"></script>
+<script src="/assets/js/pages/profile.js"></script>
+<script src="/assets/js/pages/faq.js"></script>
+<script src="/assets/js/pages/contact.js"></script>
+<script src="/assets/js/pages/research.js"></script>
+<script src="/assets/js/pages/admin-login.js"></script>
+<script src="/assets/js/pages/admin-dashboard.js"></script>
+<script src="/assets/js/pages/admin-complaints.js"></script>
+<script src="/assets/js/pages/admin-complaint-details.js"></script>
+<script src="/assets/js/pages/admin-departments.js"></script>
+<script src="/assets/js/pages/admin-users.js"></script>
+<script src="/assets/js/pages/admin-feedback.js"></script>
+<script src="/assets/js/pages/admin-reports.js"></script>
+<script src="/assets/js/app.js"></script>
+</body>
+</html>

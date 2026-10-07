@@ -1,0 +1,192 @@
+{
+  "users": [
+    {
+      "user_id": 1,
+      "name": "anuj kannoujiya",
+      "mobile": "9876543210",
+      "email": "kannoujiyaanuj40@gmail.com",
+      "password_hash": "f92c561ca88f30901b35fb779ad1d2c3cbf4504b78a521ed6eb9128b4c6ecdc5",
+      "address": "mumbai",
+      "role": "citizen",
+      "is_active": true,
+      "created_at": "2026-09-18T16:33:06.534Z"
+    },
+    {
+      "user_id": 2,
+      "name": "Priya Deshmukh",
+      "mobile": "9876500000",
+      "email": "priya.demo@example.com",
+      "password_hash": "f92c561ca88f30901b35fb779ad1d2c3cbf4504b78a521ed6eb9128b4c6ecdc5",
+      "address": "FC Road, Pune",
+      "role": "citizen",
+      "is_active": true,
+      "created_at": "2026-09-18T16:33:06.534Z"
+    },
+    {
+      "user_id": 3,
+      "name": "Municipal Admin",
+      "mobile": "9999999999",
+      "email": "admin@example.com",
+      "password_hash": "f02dfef896586689feccb41f29d6a8992bddb3f9b7e49015408250308d0841e6",
+      "address": "Municipal Office",
+      "role": "admin",
+      "is_active": true,
+      "created_at": "2026-09-18T16:33:06.534Z"
+    }
+  ],
+  "departments": [
+    {
+      "department_id": 1,
+      "department_name": "Solid Waste Management",
+      "description": "Garbage collection, dumping and cleanliness"
+    },
+    {
+      "department_id": 2,
+      "department_name": "Water Supply",
+      "description": "Drinking water supply issues"
+    },
+    {
+      "department_id": 3,
+      "department_name": "Drainage",
+      "description": "Drainage and sewage related issues"
+    },
+    {
+      "department_id": 4,
+      "department_name": "Roads",
+      "description": "Road damage and pothole repairs"
+    },
+    {
+      "department_id": 5,
+      "department_name": "Street Lighting",
+      "description": "Street light repair and maintenance"
+    },
+    {
+      "department_id": 6,
+      "department_name": "Garden / Parks",
+      "description": "Public gardens and tree related issues"
+    },
+    {
+      "department_id": 7,
+      "department_name": "Building Department",
+      "description": "Illegal construction / building safety"
+    },
+    {
+      "department_id": 8,
+      "department_name": "Public Health",
+      "description": "Stray animal and public health issues"
+    },
+    {
+      "department_id": 9,
+      "department_name": "Encroachment / Traffic",
+      "description": "Encroachment and traffic civic issues"
+    },
+    {
+      "department_id": 10,
+      "department_name": "General Administration",
+      "description": "Miscellaneous complaints"
+    }
+  ],
+  "categories": [
+    {
+      "category_id": 1,
+      "category_name": "Garbage",
+      "icon": "🗑️",
+      "description": "Uncollected garbage, littering, open dumping",
+      "default_department_id": 1,
+      "sla_days": 3
+    },
+    {
+      "category_id": 2,
+      "category_name": "Road / Pothole",
+      "icon": "🛣️",
+      "description": "Damaged roads, potholes, broken footpaths",
+      "default_department_id": 4,
+      "sla_days": 10
+    },
+    {
+      "category_id": 3,
+      "category_name": "Water Supply",
+      "icon": "💧",
+      "description": "No water supply, low pressure, contaminated water",
+      "default_department_id": 2,
+      "sla_days": 2
+    },
+    {
+      "category_id": 4,
+      "category_name": "Drainage",
+      "icon": "🚰",
+      "description": "Blocked drains, sewage overflow",
+      "default_department_id": 3,
+      "sla_days": 3
+    },
+    {
+      "category_id": 5,
+      "category_name": "Street Light",
+      "icon": "💡",
+      "description": "Non-functional or damaged street lights",
+      "default_department_id": 5,
+      "sla_days": 5
+    },
+    {
+      "category_id": 6,
+      "category_name": "Tree / Park",
+      "icon": "🌳",
+      "description": "Fallen trees, damaged park equipment",
+      "default_department_id": 6,
+      "sla_days": 5
+    },
+    {
+      "category_id": 7,
+      "category_name": "Building Issue",
+      "icon": "🏢",
+      "description": "Illegal construction, unsafe structures",
+      "default_department_id": 7,
+      "sla_days": 15
+    },
+    {
+      "category_id": 8,
+      "category_name": "Stray Animal",
+      "icon": "🐕",
+      "description": "Stray dogs/cattle causing nuisance or danger",
+      "default_department_id": 8,
+      "sla_days": 5
+    },
+    {
+      "category_id": 9,
+      "category_name": "Traffic / Civic Issue",
+      "icon": "🚦",
+      "description": "Encroachment, illegal parking, obstruction",
+      "default_department_id": 9,
+      "sla_days": 7
+    },
+    {
+      "category_id": 10,
+      "category_name": "Other",
+      "icon": "📌",
+      "description": "Any other municipal civic issue",
+      "default_department_id": 10,
+      "sla_days": 7
+    }
+  ],
+  "complaints": [],
+  "complaint_status_history": [],
+  "feedback": [],
+  "notifications": [],
+  "tokens": {
+    "0730107d3f36d993443486eae071f1396832118bb944c92f": {
+      "user_id": 1,
+      "expires": 1790021098006
+    },
+    "107d09b8b68694cb7d856afb02190014352a5d62658cc300": {
+      "user_id": 1,
+      "expires": 1790194428292
+    }
+  },
+  "counters": {
+    "complaint": 100,
+    "user": 3,
+    "history": 0,
+    "feedback": 0,
+    "notification": 0
+  }
+}
